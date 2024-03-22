@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.GregorianCalendar;
+import java.util.List;
 
 @Service
 public class ItemService {
@@ -19,6 +20,14 @@ public class ItemService {
 
     public GroceryItem addGroceryItem(GroceryItem groceryItem){
         return itemRepository.save(groceryItem);
+    }
+
+    public List<GroceryItem> getAllGroceryItem(){
+        return itemRepository.findAll();
+    }
+
+    public List<GroceryItem> getAllGroceryItemByCategoryName(String category){
+        return itemRepository.findAll(category);
     }
 
 }
