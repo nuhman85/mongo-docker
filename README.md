@@ -14,3 +14,6 @@ docker run -d -p 27019:27017 --name mongo-on-docker -e MONGO_INITDB_ROOT_USERNAM
 
 ![Screenshot 2024-03-22 at 12 46 07 PM](https://github.com/nuhman85/mongo-docker/assets/54722925/f29fdd1c-c9e3-4190-98fe-ab5ac3e96eab)
 
+
+
+<img width="1030" alt="Screenshot 2024-03-22 at 1 58 21 PM" src="https://github.com/nuhman85/mongo-docker/assets/54722925/b69d6da3-fc01-41df-bc91-811f273b1aea">
